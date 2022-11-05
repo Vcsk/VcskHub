@@ -1,3 +1,5 @@
+-- By Vcsk
+print("By Vcsk")
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loading...",
 	Text = "Please wait",
@@ -27,6 +29,8 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Text = "vcsk0 , Script Owner",
 	Icon = "rbxassetid://0000000000"})
 Duration = 5;
+
+-- Library and window
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local window = Library.CreateLib("VcskHub | V1.00", "Ocean")
@@ -128,8 +132,8 @@ end)
 
 Tab2Section:NewLabel("Bedwars")
 
-Tab2Section:NewButton("JN HH Gaming Hub - V2.0","OP",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-2.0/main/JN%20HH%20Gaming%202.0"))();
+Tab2Section:NewButton("JNHHHub","OP",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-2.0/main/JN%20HH%20Gaming%202.0"))()
 end)
 
 Tab2Section:NewButton("Darkrai X","OP",function()
