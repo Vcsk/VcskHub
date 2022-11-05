@@ -443,7 +443,7 @@ loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 end)
 
 Tab7Section:NewButton("Telekinesis","V2",function()
-loadsting(game:HttpGet("https://raw.githubusercontent.com/Vcsk/b/main/Test"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/b/main/Test"))()
 end)
 
 -- Tab8
