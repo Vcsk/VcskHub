@@ -5,11 +5,11 @@
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loading...",
-	Text = "",
+	Text = "Please wait",
 	Icon = "rbxassetid://0000000000"})
-Duration = 3;
+Duration = 5;
 
-wait(3)
+wait(5)
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loaded!",
@@ -18,6 +18,8 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 Duration = 3;
 
 print("...Loaded!");
+
+wait(1)
 
 -- Notification
 
