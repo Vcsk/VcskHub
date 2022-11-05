@@ -23,7 +23,7 @@ print("...Loaded!");
 
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Welcome",
-	Text = "VCSKHub - V1.0",
+	Text = "VcskHub | V1.0",
 	Icon = "rbxassetid://0000000000"})
 Duration = 3;
 
@@ -36,7 +36,7 @@ Duration = 5;
 -- Library
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("VcskHub | V1.0", "Ocean")
+local Window = Library.CreateLib("VcskHub | V0.01", "Ocean")
  
 -- Tabs
 
