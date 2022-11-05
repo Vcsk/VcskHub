@@ -1,3 +1,5 @@
+-- By Vcsk
+
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loading...",
 	Text = "Please wait",
