@@ -1,3 +1,21 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Loading...",
+	Text = "Please wait",
+	Icon = "rbxassetid://0000000000"})
+Duration = 5;
+
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Loaded!",
+	Text = "Have Fun!",
+	Icon = "rbxassetid://0000000000"})
+Duration = 3;
+
+print("Loaded!");
+
+wait(1)
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
 local Window = Library:Create("VcskVHub | V1.00","All")
 
