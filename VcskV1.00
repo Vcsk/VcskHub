@@ -52,12 +52,13 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 Duration = 2;
 end)
 
-Tab2:Button("FE VR(Execute Netless First)",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/Test-3/main/Test-3"))()
+
+Tab1:Button("Netless",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vf1d0baT"))()
 end)
 
-Tab3:Button("Netless",function()
-loadstring(game:HttpGet("https://pastebin.com/raw/vf1d0baT"))()
+Tab2:Button("FE VR(Execute Netless First)",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/Test-3/main/Test-3"))()
 end)
 
 Tab3:Textbox("Walkspeed","Enter Walkspeed",function(v)
