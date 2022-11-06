@@ -24,11 +24,10 @@ local Window = Library:Create("VcskVHub | V1.00","All")
 local Tab1 = Window:Tab("Scripts",false)
 local Tab2 = Window:Tab("FE Scripts",false)
 local Tab3 = Window:Tab("Player",false)
-local Tab4 = Window:Tab("Games",false)
-local Tab5 = Window:Tab("Hubs",false)
-local Tab6 = Window:Tab("Guis",false)
-local Tab7 = Window:Tab("Tools",false)
-local Tab8 = Window:Tab("Credits",true)
+local Tab4 = Window:Tab("Hubs",false)
+local Tab5 = Window:Tab("Guis",false)
+local Tab6 = Window:Tab("Tools",false)
+local Tab7 = Window:Tab("Credits",true)
 
 Tab1:Label("Scripts")
 Tab2:Label("FE Scripts")
@@ -61,6 +60,10 @@ Tab2:Button("FE VR(Execute Netless First)",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/Test-3/main/Test-3"))()
 end)
 
+Tab2:Button("FE Cat",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/FE-Cat/main/FE-Cat"))()
+end)
+
 Tab3:Textbox("Walkspeed","Enter Walkspeed",function(v)
   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
@@ -83,4 +86,20 @@ end
 	game.Players.LocalPlayer.Character.Torso.CanCollide = true
 end
     end
+end)
+
+Tab6:Button("Super Tools",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/sQWeMuB0'))()
+end)
+
+Tab6:Button("F3X(Not FE)",function()
+loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+end)
+
+Tab6:Button("Telekinesis",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/b/main/Test"))()
+end)
+
+Tab6:Button("Invisible Tools",function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
 end)
