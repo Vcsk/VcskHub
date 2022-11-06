@@ -22,10 +22,17 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mappl
 local Window = Library:Create("VcskVHub | V1.00","All")
 
 local Tab1 = Window:Tab("Scripts",false)
-local Tab2 = Window:Tab("Player",false)
+local Tab2 = Window:Tab("FE Scripts",false)
+local Tab3 = Window:Tab("Player",false)
+local Tab4 = Window:Tab("Games",false)
+local Tab5 = Window:Tab("Hubs",false)
+local Tab6 = Window:Tab("Guis",false)
+local Tab7 = Window:Tab("Tools",false)
+local Tab8 = Window:Tab("Credits",true)
 
 Tab1:Label("Scripts")
-Tab2:Label("LocalPlayer")
+Tab2:Label("FE Scripts")
+Tab3:Label("LocalPlayer")
 
 Tab1:Button("Shiftlock For Mobile",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
@@ -45,19 +52,23 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 Duration = 2;
 end)
 
-Tab1:Button("Netless",function()
+Tab2:Button("FE VR(Execute Netless First)",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/Test-3/main/Test-3"))()
+end)
+
+Tab3:Button("Netless",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/vf1d0baT"))()
 end)
 
-Tab2:Textbox("Walkspeed","Enter Walkspeed",function(v)
+Tab3:Textbox("Walkspeed","Enter Walkspeed",function(v)
   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
 
-Tab2:Textbox("JumpPower","Enter JumpPower",function(v)
+Tab3:Textbox("JumpPower","Enter JumpPower",function(v)
   game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
 end)
 
-Tab2:Toggle("Noclip",function(state)
+Tab3:Toggle("Noclip",function(state)
   if state then
 while true do
 	game:GetService("RunService").Stepped:wait()
