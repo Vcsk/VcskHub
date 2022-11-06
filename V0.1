@@ -1,7 +1,7 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loading...",
 	Text = "Please wait",
-	Icon = "rbxassetid://0000000000"})
+	Icon = "rbxassetid://8932511170"})
 Duration = 5;
 
 wait(5)
@@ -27,6 +27,11 @@ Tab2:Label("LocalPlayer")
 
 Tab1:Button("Keyboard",function()
 loadstring(game:HttpGet(('https://pastebin.com/raw/SxgKjiRT'),true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxassetid://11401835408"})
+Duration = 2;
 end)
 
 Tab1:Button("Netless",function()
