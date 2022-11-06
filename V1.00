@@ -52,25 +52,17 @@ Tab2:Textbox("JumpPower","Enter JumpPower",function(v)
 end)
 
 Tab2:Toggle("Noclip",function(state)
-    if state then
+  if state then
+while true do
 	game:GetService("RunService").Stepped:wait()
 	game.Players.LocalPlayer.Character.Head.CanCollide = false
 	game.Players.LocalPlayer.Character.Torso.CanCollide = false
-	game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Notification",
-	Text = "On",
-	Icon = "rbxassetid://11401835408"})
-Duration = 2;
 end
     else
-        game:GetService("RunService").Stepped:wait()
+ while true do
+	game:GetService("RunService").Stepped:wait()
 	game.Players.LocalPlayer.Character.Head.CanCollide = true
 	game.Players.LocalPlayer.Character.Torso.CanCollide = true
-	game:GetService("StarterGui"):SetCore("SendNotification",{
-	Title = "Notification",
-	Text = "Off",
-	Icon = "rbxassetid://11401835408"})
-Duration = 2;
 end
     end
 end)
