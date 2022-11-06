@@ -36,6 +36,11 @@ end)
 
 Tab1:Button("Netless",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/vf1d0baT"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxassetid://11401835408"})
+Duration = 2;
 end)
 
 Tab2:Textbox("Walkspeed","Enter Walkspeed",function(v)
@@ -48,20 +53,24 @@ end)
 
 Tab2:Toggle("Noclip",function(state)
     if state then
-        game.Players.LocalPlayer.Character.Humanoid.MaxHealth = math.huge
-game.Players.LocalPlayer.Character.Humanoid.Health = math.huge
-while true do
 	game:GetService("RunService").Stepped:wait()
 	game.Players.LocalPlayer.Character.Head.CanCollide = false
 	game.Players.LocalPlayer.Character.Torso.CanCollide = false
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "On",
+	Icon = "rbxassetid://11401835408"})
+Duration = 2;
 end
     else
-        game.Players.LocalPlayer.Character.Humanoid.MaxHealth = 100
-game.Players.LocalPlayer.Character.Humanoid.Health = 100
-while true do
-	game:GetService("RunService").Stepped:wait()
+        game:GetService("RunService").Stepped:wait()
 	game.Players.LocalPlayer.Character.Head.CanCollide = true
 	game.Players.LocalPlayer.Character.Torso.CanCollide = true
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Off",
+	Icon = "rbxassetid://11401835408"})
+Duration = 2;
 end
     end
 end)
