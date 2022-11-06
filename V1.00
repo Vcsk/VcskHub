@@ -7,6 +7,6 @@ local Tab2 = Window:Tab("Player",true)
 Tab1:Label("Scripts")
 Tab2:Label("LocalPlayer")
 
-Tab1:Button("Test",function()
-  print("pressed Test")
+Tab1:Button("Keyboard",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/SxgKjiRT'),true))()
 end)
