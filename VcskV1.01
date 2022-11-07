@@ -1,0 +1,402 @@
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Password = Instance.new("TextBox")
+local EnterPassword = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+main.Position = UDim2.new(0.275528163, 0, 0.271375477, 0)
+main.Size = UDim2.new(0.448063374, 0, 0.457249075, 0)
+
+UICorner.Parent = main
+
+Password.Name = "Password"
+Password.Parent = main
+Password.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+Password.Position = UDim2.new(0.267190576, 0, 0.256097555, 0)
+Password.Size = UDim2.new(0.479371309, 0, 0.203252032, 0)
+Password.Font = Enum.Font.SourceSans
+Password.Text = "Password Here"
+Password.TextColor3 = Color3.fromRGB(0, 255, 17)
+Password.TextScaled = true
+Password.TextSize = 14.000
+Password.TextWrapped = true
+
+EnterPassword.Name = "EnterPassword"
+EnterPassword.Parent = main
+EnterPassword.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EnterPassword.Position = UDim2.new(0.302554041, 0, 0.617886186, 0)
+EnterPassword.Size = UDim2.new(0.392927319, 0, 0.203252032, 0)
+EnterPassword.Font = Enum.Font.FredokaOne
+EnterPassword.Text = "Enter"
+EnterPassword.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnterPassword.TextScaled = true
+EnterPassword.TextSize = 14.000
+EnterPassword.TextWrapped = true
+
+Title.Name = "Title"
+Title.Parent = main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Size = UDim2.new(1, 0, 0.203252032, 0)
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "Please Enter Password"
+Title.TextColor3 = Color3.fromRGB(255, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+local function RUCZDS_fake_script() 
+	local script = Instance.new('LocalScript', EnterPassword)
+
+	local s = script.Parent
+	
+	s.MouseButton1Click:Connect(function()
+		if s.Parent.Password.Text == "vcsk0" then
+			print("valid password!")
+			print("Made by vcsk0")
+			print("Loading...")
+			
+			game:GetService("StarterGui"):SetCore("SendNotification",{
+				Title = "Valid Password!",
+				Text = "Thanks for using VcskVHub",
+				Icon = "rbxassetid://8932511170"})
+			Duration = 2;
+			
+			game:GetService("StarterGui"):SetCore("SendNotification",{
+				Title = "Loading...",
+				Text = "Please wait(5)",
+				Icon = "rbxassetid://8932511170"})
+			Duration = 5;
+
+			wait(5)
+
+			game:GetService("StarterGui"):SetCore("SendNotification",{
+				Title = "Loaded!",
+				Text = "Have Fun!",
+				Icon = "rbxassetid://0000000000"})
+			Duration = 3;
+
+			print("Loaded!");
+
+			wait(1)
+
+			local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+			local Window = Library:Create("VcskVHub | V1.00","All")
+
+			local Tab1 = Window:Tab("Scripts",false)
+			local Tab2 = Window:Tab("FE Scripts",false)
+			local Tab3 = Window:Tab("Player",false)
+			local Tab4 = Window:Tab("Games",false)
+			local Tab5 = Window:Tab("Hubs",false)
+			local Tab6 = Window:Tab("Guis",false)
+			local Tab7 = Window:Tab("Tools",false)
+			local Tab8 = Window:Tab("Credits",true)
+
+			Tab1:Label("Scripts")
+			Tab2:Label("FE Scripts")
+			Tab3:Label("LocalPlayer")
+
+			Tab1:Button("Anti Fling",function()
+				loadstring(game:HttpGet("https://pastebin.com/raw/B2DCzPeD"))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab1:Button("Shiftlock For Mobile",function()
+				loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab1:Button("Keyboard",function()
+				loadstring(game:HttpGet(('https://pastebin.com/raw/SxgKjiRT'),true))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+
+			Tab1:Button("Netless",function()
+				loadstring(game:HttpGet("https://pastebin.com/raw/vf1d0baT"))()
+			end)
+
+			Tab2:Button("FE VR(Execute Netless First)",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/Test-3/main/Test-3"))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Make Sure You Executed Netless",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab2:Button("FE Cat",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/FE-Cat/main/FE-Cat"))()
+			end)
+
+			Tab2:Button("FE SCP-096 | Hats Needed",function()
+				loadstring(game:HttpGet("https://pastebin.com/EM3gWpGZ"))()
+			end)
+
+			Tab2:Button("FakeLag",function()
+				loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
+			end)
+
+			Tab2:Button("IV AdminV2",function()
+				loadstring("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\79\109\110\105\112\111\116\101\110\99\101\68\101\118\101\108\111\112\101\114\47\78\117\109\98\101\114\47\109\97\105\110\47\49\46\108\117\97")()
+			end)
+
+			Tab2:Button("Infinite Yield",function()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab2:Button("Reviz Admin",function()
+				loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab3:Textbox("Walkspeed","Change Walkspeed",function(v)
+				game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+			end)
+
+			Tab3:Textbox("JumpPower","Change JumpPower",function(v)
+				game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+			end)
+
+			Tab3:Textbox("Fov","Change Field Of View",function(v)
+				game.Workspace.CurrentCamera.FieldOfView = v
+			end)
+
+			Tab3:Toggle("Noclip",function(state)
+				if state then
+					while true do
+						game:GetService("RunService").Stepped:wait()
+						game.Players.LocalPlayer.Character.Head.CanCollide = false
+						game.Players.LocalPlayer.Character.Torso.CanCollide = false
+					end
+				else
+					while true do
+						game:GetService("RunService").Stepped:wait()
+						game.Players.LocalPlayer.Character.Head.CanCollide = true
+						game.Players.LocalPlayer.Character.Torso.CanCollide = true
+					end
+				end
+			end)
+
+			Tab4:Button("SwagModeV2 | Dahood",function()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab4:Button("NukerMode | Dahood",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab4:Button("ThunderZ | BloxFruit",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab4:Button("SeptexAdmin | PrisonLife",function()
+				loadstring(game:HttpGet(("https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife"),true))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab4:Button("Aimbot | K.A.T",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/KAT/main/Aimbot"))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab4:Button("JNHH 1 | Bedwars",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-1-Click/main/JN%20HH%20Gaming%201%20Click",true))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("Hat Hub",function()
+				loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("HoHoHub",function()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("B_Genesis",function()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("RedGhost Hub","Owner - GhostPlayer",function()
+				loadstring(game:HttpGet('https://pastebin.com/raw/WFKSRG6m'))();
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("BritishHubV6","Hub",function()
+				loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("VHub","Credits to the Owner",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/SourceScript5315/sauce/main/VH-Launcher.lua"))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("DarkX Hub",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/test-2/main/Test-2"))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("DarkGhost Hub | Pass:GhostPlayer",function()
+				loadstring(game:HttpGet('https://pastebin.com/raw/PY9SMdpY'))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("DomainX Hub",function()
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab5:Button("FeBoomboxHub",function()
+				loadstring(game:HttpGet('https://pastebin.com/raw/0QYXRcnm'))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab6:Button("RTX GUI V3.1",function()
+				loadstring(game:HttpGet("https://pastebin.com/raw/0G3C94Aw",true))()
+			end)
+
+			Tab7:Button("Super Tools",function()
+				loadstring(game:HttpGet('https://pastebin.com/raw/sQWeMuB0'))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab7:Button("F3X(Not FE)",function()
+				loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab7:Button("Telekinesis",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/b/main/Test"))()
+				game:GetService("StarterGui"):SetCore("SendNotification",{
+					Title = "Notification",
+					Text = "Executed!",
+					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+				Duration = 2;
+			end)
+
+			Tab7:Button("Invisible Tools",function()
+				loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
+			end)
+		else
+			print("invalid password!")
+			game:GetService("StarterGui"):SetCore("SendNotification",{
+				Title = "Invalid Password!",
+				Text = "Subcribe Vcsk0 for Password",
+				Icon = "rbxassetid://8932511170"})
+			Duration = 5;
+		end
+	end)
+end
+coroutine.wrap(RUCZDS_fake_script)()
