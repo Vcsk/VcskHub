@@ -286,6 +286,10 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 Duration = 2;
 end)
 
+Tab6:Button("RTX GUI V3.1",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0G3C94Aw",true))()
+end)
+
 Tab7:Button("Super Tools",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/sQWeMuB0'))()
 game:GetService("StarterGui"):SetCore("SendNotification",{
