@@ -84,6 +84,10 @@ Tab2:Button("FE Cat",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/FE-Cat/main/FE-Cat"))()
 end)
 
+Tab2:Button("FE SCP-096 | Hats Needed",function()
+loadstring(game:HttpGet("https://pastebin.com/EM3gWpGZ"))()
+end)
+
 Tab2:Button("FakeLag",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
 end)
