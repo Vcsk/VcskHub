@@ -60,6 +60,7 @@ local function RUCZDS_fake_script()
 	s.MouseButton1Click:Connect(function()
 		if s.Parent.Password.Text == "vcsk0" then
 			print("valid password!")
+			s.Parent.Parent.main.Visible = false
 			print("Made by vcsk0")
 			print("Loading...")
 			
