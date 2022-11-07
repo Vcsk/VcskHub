@@ -103,6 +103,7 @@ local function RUCZDS_fake_script()
 			Tab1:Label("Scripts")
 			Tab2:Label("FE Scripts")
 			Tab3:Label("LocalPlayer")
+			Tab8:Label("Credits: Scripts Owner, UI MADE BY Mapple")
 
 			Tab1:Button("Anti Fling",function()
 				loadstring(game:HttpGet("https://pastebin.com/raw/B2DCzPeD"))()
