@@ -133,6 +133,10 @@ Tab4:Button("JNHH 1 | Bedwars",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-1-Click/main/JN%20HH%20Gaming%201%20Click",true))()
 end)
 
+Tab5:Button("Hat Hub",function()
+loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
+end)
+
 Tab5:Button("HoHoHub",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
