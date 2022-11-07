@@ -109,10 +109,6 @@ Tab4:Button("NukerMode | Dahood",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
 end)
 
-Tab4:Button("HoHo Hub | BloxFruit",function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-end)
-
 Tab4:Button("ThunderZ | BloxFruit",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
 end)
@@ -123,6 +119,10 @@ end)
 
 Tab4:Button("Aimbot | K.A.T",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/KAT/main/Aimbot"))()
+end)
+
+Tab5:Button("HoHoHub",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
 Tab5:Button("RedGhost Hub","Owner - GhostPlayer",function()
