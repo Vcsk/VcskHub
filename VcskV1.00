@@ -24,10 +24,11 @@ local Window = Library:Create("VcskVHub | V1.00","All")
 local Tab1 = Window:Tab("Scripts",false)
 local Tab2 = Window:Tab("FE Scripts",false)
 local Tab3 = Window:Tab("Player",false)
-local Tab4 = Window:Tab("Hubs",false)
-local Tab5 = Window:Tab("Guis",false)
-local Tab6 = Window:Tab("Tools",false)
-local Tab7 = Window:Tab("Credits",true)
+local Tab4 = Window:Tab("Games",false)
+local Tab5 = Window:Tab("Hubs",false)
+local Tab6 = Window:Tab("Guis",false)
+local Tab7 = Window:Tab("Tools",false)
+local Tab8 = Window:Tab("Credits",true)
 
 Tab1:Label("Scripts")
 Tab2:Label("FE Scripts")
@@ -100,46 +101,66 @@ end
     end
 end)
 
-Tab4:Button("RedGhost Hub","Owner - GhostPlayer",function()
+Tab4:Button("SwagModeV2 | Dahood",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+Tab4:Button("NukerMode | Dahood",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+end)
+
+Tab4:Button("HoHo Hub | BloxFruit",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UCsB5xC3", true))()
+end)
+
+Tab4:Button("ThunderZ | BloxFruit",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+end)
+
+Tab4:Button("SeptexAdmin | PrisonLife",function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife"),true))()
+end)
+
+Tab5:Button("RedGhost Hub","Owner - GhostPlayer",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/WFKSRG6m'))();
 end)
 
-Tab4:Button("BritishHubV6","Hub",function()
+Tab5:Button("BritishHubV6","Hub",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
 end)
 
-Tab4:Button("VHub","Credits to the Owner",function()
+Tab5:Button("VHub","Credits to the Owner",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SourceScript5315/sauce/main/VH-Launcher.lua"))()
 end)
 
-Tab4:Button("DarkX Hub","Credits to the Owner",function()
+Tab5:Button("DarkX Hub","Credits to the Owner",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/test-2/main/Test-2"))()
 end)
 
-Tab4:Button("DarkGhost Hub","Password:GhostPlayer",function()
+Tab5:Button("DarkGhost Hub","Password:GhostPlayer",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/PY9SMdpY'))()
 end)
 
-Tab4:Button("DomainX Hub","Good",function()
+Tab5:Button("DomainX Hub","Good",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
 end)
 
-Tab4:Button("FeBoomboxHub","Hub",function()
+Tab5:Button("FeBoomboxHub","Hub",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/0QYXRcnm'))()
 end)
 
-Tab6:Button("Super Tools",function()
+Tab7:Button("Super Tools",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/sQWeMuB0'))()
 end)
 
-Tab6:Button("F3X(Not FE)",function()
+Tab7:Button("F3X(Not FE)",function()
 loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 end)
 
-Tab6:Button("Telekinesis",function()
+Tab7:Button("Telekinesis",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/b/main/Test"))()
 end)
 
-Tab6:Button("Invisible Tools",function()
+Tab7:Button("Invisible Tools",function()
 loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)",true))()
 end)
