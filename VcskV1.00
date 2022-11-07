@@ -2,7 +2,7 @@ print("Made by vcsk0")
 print("Loading...")
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Loading...",
-	Text = "Please wait",
+	Text = "Please wait(5)",
 	Icon = "rbxassetid://8932511170"})
 Duration = 5;
 
