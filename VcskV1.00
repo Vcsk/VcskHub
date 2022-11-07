@@ -81,12 +81,16 @@ Tab2:Button("Reviz Admin",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
 end)
 
-Tab3:Textbox("Walkspeed","Enter Walkspeed",function(v)
+Tab3:Textbox("Walkspeed","Change Walkspeed",function(v)
   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
 
-Tab3:Textbox("JumpPower","Enter JumpPower",function(v)
+Tab3:Textbox("JumpPower","Change JumpPower",function(v)
   game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+end)
+
+Tab3:Textbox("Fov","Change Field Of View",function(v)
+  game.Workspace.CurrentCamera.FieldOfView = v
 end)
 
 Tab3:Toggle("Noclip",function(state)
