@@ -129,6 +129,10 @@ Tab5:Button("HoHoHub",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
+Tab5:Button("B_Genesis",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+end)
+
 Tab5:Button("RedGhost Hub","Owner - GhostPlayer",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/WFKSRG6m'))();
 end)
