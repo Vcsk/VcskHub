@@ -11,8 +11,8 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-main.Position = UDim2.new(0.275528163, 0, 0.271375477, 0)
-main.Size = UDim2.new(0.448063374, 0, 0.457249075, 0)
+main.Position = UDim2.new(0.266725361, 0, 0.256505549, 0)
+main.Size = UDim2.new(0.465669006, 0, 0.477695227, 0)
 
 UICorner.Parent = main
 
@@ -402,3 +402,12 @@ local function RUCZDS_fake_script()
 	end)
 end
 coroutine.wrap(RUCZDS_fake_script)()
+local function PSWNTZB_fake_script() 
+	local script = Instance.new('LocalScript', main)
+
+	main = script.Parent.Parent.main
+	main.Draggable = true
+	main.Selectable = true
+	main.Active = true
+end
+coroutine.wrap(PSWNTZB_fake_script)()
