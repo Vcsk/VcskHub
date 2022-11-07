@@ -110,7 +110,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Wh
 end)
 
 Tab4:Button("HoHo Hub | BloxFruit",function()
-loadstring(game:HttpGet("https://pastebin.com/raw/UCsB5xC3", true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
 Tab4:Button("ThunderZ | BloxFruit",function()
