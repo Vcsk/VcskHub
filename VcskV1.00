@@ -34,6 +34,15 @@ Tab1:Label("Scripts")
 Tab2:Label("FE Scripts")
 Tab3:Label("LocalPlayer")
 
+Tab1:Button
+loadstring(game:HttpGet("https://pastebin.com/raw/B2DCzPeD"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
+end)
+
 Tab1:Button("Shiftlock For Mobile",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
 game:GetService("StarterGui"):SetCore("SendNotification",{
@@ -59,6 +68,16 @@ end)
 
 Tab2:Button("FE VR(Execute Netless First)",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/Test-3/main/Test-3"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Make Sure You Executed Netless",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab2:Button("FE Cat",function()
@@ -75,10 +94,20 @@ end)
 
 Tab2:Button("Infinite Yield",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab2:Button("Reviz Admin",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N",true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab3:Textbox("Walkspeed","Change Walkspeed",function(v)
@@ -111,78 +140,173 @@ end)
 
 Tab4:Button("SwagModeV2 | Dahood",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab4:Button("NukerMode | Dahood",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab4:Button("ThunderZ | BloxFruit",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab4:Button("SeptexAdmin | PrisonLife",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife"),true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab4:Button("Aimbot | K.A.T",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/KAT/main/Aimbot"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab4:Button("JNHH 1 | Bedwars",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-1-Click/main/JN%20HH%20Gaming%201%20Click",true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab5:Button("Hat Hub",function()
 loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab5:Button("HoHoHub",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab5:Button("B_Genesis",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis'))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab5:Button("RedGhost Hub","Owner - GhostPlayer",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/WFKSRG6m'))();
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab5:Button("BritishHubV6","Hub",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BHob6"),true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab5:Button("VHub","Credits to the Owner",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SourceScript5315/sauce/main/VH-Launcher.lua"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
-Tab5:Button("DarkX Hub","Credits to the Owner",function()
+Tab5:Button("DarkX Hub",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/test-2/main/Test-2"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
-Tab5:Button("DarkGhost Hub","Password:GhostPlayer",function()
+Tab5:Button("DarkGhost Hub | Pass:GhostPlayer",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/PY9SMdpY'))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
-Tab5:Button("DomainX Hub","Good",function()
+Tab5:Button("DomainX Hub",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
-Tab5:Button("FeBoomboxHub","Hub",function()
+Tab5:Button("FeBoomboxHub",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/0QYXRcnm'))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab7:Button("Super Tools",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/sQWeMuB0'))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab7:Button("F3X(Not FE)",function()
 loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab7:Button("Telekinesis",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/b/main/Test"))()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Notification",
+	Text = "Executed!",
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 2;
 end)
 
 Tab7:Button("Invisible Tools",function()
