@@ -89,7 +89,7 @@ local function RUCZDS_fake_script()
 			wait(1)
 
 			local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
-			local Window = Library:Create("VcskVHub | V1.00","All")
+			local Window = Library:Create("VcskVHub | V1.01","All")
 
 			local Tab1 = Window:Tab("Scripts",false)
 			local Tab2 = Window:Tab("FE Scripts",false)
@@ -411,3 +411,5 @@ local function PSWNTZB_fake_script()
 	main.Active = true
 end
 coroutine.wrap(PSWNTZB_fake_script)()
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/GamingScripter/gaming_hub/main/Gaming%20Hub")))()
