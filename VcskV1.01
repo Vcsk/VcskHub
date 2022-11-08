@@ -259,7 +259,7 @@ local function RUCZDS_fake_script()
 			end)
 
 			Tab4:Button("JNHH 1 | Bedwars",function()
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-1-Click/main/JN%20HH%20Gaming%201%20Click",true))()
+				loadstring(game:HttpGet(("https://raw.githubusercontent.com/GamingScripter/gaming_hub/main/Gaming%20Hub")))()
 				game:GetService("StarterGui"):SetCore("SendNotification",{
 					Title = "Notification",
 					Text = "Executed!",
@@ -411,5 +411,3 @@ local function PSWNTZB_fake_script()
 	main.Active = true
 end
 coroutine.wrap(PSWNTZB_fake_script)()
-
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/GamingScripter/gaming_hub/main/Gaming%20Hub")))()
