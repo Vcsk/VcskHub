@@ -58,7 +58,7 @@ local function RUCZDS_fake_script()
 	local s = script.Parent
 	
 	s.MouseButton1Click:Connect(function()
-		if s.Parent.Password.Text == "vcsk0" then
+		if s.Parent.Password.Text == "v" then
 			print("valid password!")
 			s.Parent.Parent.main.Visible = false
 			print("Made by vcsk0")
@@ -258,15 +258,25 @@ local function RUCZDS_fake_script()
 				Duration = 2;
 			end)
 
-			Tab4:Button("JNHH 1 | Bedwars",function()
-				loadstring(game:HttpGet(("https://raw.githubusercontent.com/GamingScripter/gaming_hub/main/Gaming%20Hub")))()
+			Tab4:Button("JNHH Script | Bedwars",function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-Pro/main/JN%20HH%20Gaming%20Pro",true))()
 				game:GetService("StarterGui"):SetCore("SendNotification",{
 					Title = "Notification",
 					Text = "Executed!",
 					Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 				Duration = 2;
 			end)
+                        
+                        Tab4:Button("Vape | Bedwars",function()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+                        end)
 
+                        Tab4:Button("OP SCRIPT(Combine) | Bedwars",function()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-Pro/main/JN%20HH%20Gaming%20Pro",true))()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+                        end)
+                        
 			Tab5:Button("Hat Hub",function()
 				loadstring(game:HttpGet("https://textbin.net/raw/rvohv1nvuf"))();
 				game:GetService("StarterGui"):SetCore("SendNotification",{
